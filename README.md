@@ -114,6 +114,7 @@ data, or operating anyone else's account. There is a real risk of account restri
 - Coordinates depend on window size, scaling, language and LINE version. Recalibrate when they move.
 - Opening a chat marks it as read for the sender.
 - Screenshots: on Windows the LINE window itself is captured (PrintWindow); if that fails, a copy of the screen area is used, which can include another app lying on top. On macOS the screen area of the window is captured, so a window on top of LINE (for example during a popup screenshot) can appear in the image the agent receives.
+- Read state: any input sent to LINE (search, list scrolling) can make LINE mark the chat that is open on the right as read; LINE does this itself. `line_restore_view` puts back the search text, the open chat and the tab, but the exact list scroll position may come back as the top of the list (it tells you when).
 - Menus, right clicks, multi-line text, mentions and the send key need LINE in the foreground for a moment.
 - Mentions are refused unless you declared a modified send key (`alt+Return`, `cmd+Return`) in the settings file or
   with `LINE_SEND_KEY` (picking a mention candidate presses Return, and the server cannot read LINE's setting).
