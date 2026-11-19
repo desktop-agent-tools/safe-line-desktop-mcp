@@ -1,0 +1,12 @@
+{
+  "_measured": "2026-11-02 on a Mac: LINE chat-list window 382x687 / chat window 375x566",
+  "LIST_SIZE": [382, 687],
+  "CHAT_SIZE": [375, 566],
+  "SEND_KEY": "cmd+Return",
+  "SEARCH_BOX": [190, 82],
+  "ALL_TAB": [90, 24],
+  "LIST_POINT": [210, 400],
+  "COMPOSER_X": 190,
+  "COMPOSER_FROM_BOTTOM": 103,
+  "FIRST_RESULT_POINT": [230, 165]
+}

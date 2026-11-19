@@ -1,0 +1,22 @@
+{
+  "limits": {
+    "send_per_minute": 5,
+    "send_per_day": 100,
+    "manage_per_minute": 6,
+    "manage_per_day": 150
+  },
+  "log": {
+    "enabled": true,
+    "include_body": false
+  },
+  "wait_for_idle_seconds": 15,
+  "return_focus": true,
+  "layout": {
+    "windows": {
+      "SEARCH_BOX": [190, 82],
+      "GROUP_TAB": [199, 23],
+      "SEND_KEY": "alt+Return"
+    },
+    "mac": {}
+  }
+}

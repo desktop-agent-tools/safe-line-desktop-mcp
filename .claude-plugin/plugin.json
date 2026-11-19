@@ -1,0 +1,7 @@
+{
+  "name": "safe-line-desktop",
+  "version": "0.1.0",
+  "description": "Unofficial MCP server and skills that let an AI agent read and operate the LINE desktop app on your own Windows/Mac, with safety rails (target checks, send limits, local action log, background operation).",
+  "license": "Apache-2.0",
+  "keywords": ["line", "line-desktop", "mcp", "automation", "unofficial"]
+}

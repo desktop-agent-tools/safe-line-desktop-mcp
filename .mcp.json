@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "line-desktop": {
+      "command": "python",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/line_desktop_mcp.py"]
+    }
+  }
+}

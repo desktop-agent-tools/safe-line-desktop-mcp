@@ -1,0 +1,11 @@
+{
+  "name": "desktop-agent-tools",
+  "owner": { "name": "desktop-agent-tools" },
+  "plugins": [
+    {
+      "name": "safe-line-desktop",
+      "source": "./",
+      "description": "Unofficial: let your AI agent read and operate the LINE desktop app on your own PC, with safety rails."
+    }
+  ]
+}
